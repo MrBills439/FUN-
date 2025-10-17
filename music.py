@@ -23,3 +23,9 @@ def print_lyrics():
         for char in line:
             sys.stdout.write(char)
             sys.stdout.flush()
+            time.sleep(0.06)
+        print()
+        time.sleep(delays[i])
+
+
+print_lyrics()
