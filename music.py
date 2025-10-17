@@ -17,3 +17,9 @@ def print_lyrics():
     delays = [0.7, 0.2, 0.5, 0.5, 0.5,1.1,0.5,0.5,0.3]
 
     print("Girls Like You: \n")
+    time.sleep(1.2)
+
+    for i, line in enumerate(lyrics):
+        for char in line:
+            sys.stdout.write(char)
+            sys.stdout.flush()
