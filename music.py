@@ -14,4 +14,6 @@ def print_lyrics():
         "I need a girl like you, yeah"
     ]
 
-    delays =
+    delays = [0.7, 0.2, 0.5, 0.5, 0.5,1.1,0.5,0.5,0.3]
+
+    print("Girls Like You: \n")
